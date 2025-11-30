@@ -1,11 +1,13 @@
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.config/histfile
+HISTFILE="$ZDOTDIR/.histfile"
 HISTSIZE=1000
 SAVEHIST=1000
-bindkey -v
+bindkey "^[[3~" delete-char
+bindkey "^[[1~" beginning-of-line
+bindkey "^[[4~" end-of-line
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/shreyas/.zshrc'
+zstyle :compinstall filename "$ZDOTDIR/.zshrc"
 
 autoload -Uz compinit
 compinit
