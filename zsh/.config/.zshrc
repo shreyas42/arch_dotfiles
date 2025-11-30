@@ -15,3 +15,7 @@ compinit
 
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
+
+if uwsm check may-start; then
+    exec uwsm start hyprland.desktop
+fi
