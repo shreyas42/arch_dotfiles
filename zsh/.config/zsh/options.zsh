@@ -1,0 +1,5 @@
+setopt autocd
+setopt correct
+setopt interactive_comments
+setopt share_history
+setopt append_history
