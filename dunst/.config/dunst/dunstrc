@@ -44,7 +44,7 @@
     # Offset from the origin
     # NOTE: Dunst from version 1.11 and older use this alternative notation
     # offset = 10x50
-    offset = (10, 40)
+    offset = (5, 20)
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -498,3 +498,4 @@
 #    set_stack_tag = "volume"
 #
 # vim: ft=cfg
+
