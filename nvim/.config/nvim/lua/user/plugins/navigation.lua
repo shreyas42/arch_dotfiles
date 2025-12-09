@@ -9,7 +9,7 @@ return {
         -- load plugin on keypress
         -- also defines keymaps
         keys = {
-            { "<leader>ff", "<cmd>Telescope find_files<cr>" },
+            { "<leader>ff", "<cmd>Telescope find_files hidden=true no_ignore=true<cr>" },
             { "<leader>fg", "<cmd>Telescope live_grep<cr>" },
             { "<leader>fb", "<cmd>Telescope buffers<cr>" },
             { "<leader>fh", "<cmd>Telescope help_tags<cr>" },
