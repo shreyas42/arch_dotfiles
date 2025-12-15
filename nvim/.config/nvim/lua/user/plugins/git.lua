@@ -77,9 +77,9 @@ return {
                 if ft == "python" then
                     vim.cmd("TermExec cmd='python3 " .. vim.fn.expand("%") .. "'")
                 elseif ft == "cpp" then
-                    vim.cmd("TermExec cmd='g++ % -o out && ./out'")
+                    vim.cmd("TermExec cmd='g++ -O2 % -o out && ./out'")
                 elseif ft == "c" then
-                    vim.cmd("TermExec cmd='gcc % -o out && ./out'")
+                    vim.cmd("TermExec cmd='gcc -O2 % -o out && ./out'")
                 end
             end)
         end,
