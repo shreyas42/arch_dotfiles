@@ -19,7 +19,8 @@ dap.configurations.python = {
 dap.adapters.cppdbg = {
     id = "cppdbg",
     type = "executable",
-    command = vim.fn.stdpath("data") .. "/mason/bin/OpenDebugAD7",
+    -- command = vim.fn.stdpath("data") .. "/mason/bin/OpenDebugAD7",
+    command = vim.fn.stdpath("data") .. "/mason/bin/codelldb",
 }
 
 dap.configurations.cpp = {

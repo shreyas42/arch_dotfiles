@@ -2,6 +2,7 @@
 
 --- Line behavior
 vim.opt.number = true -- Enable line numbers
+vim.opt.relativenumber = true -- Enable relative numbers for jumps
 vim.opt.signcolumn = "yes" -- Enable sign column
 
 --- Tab and indentation behavior
@@ -18,6 +19,8 @@ vim.opt.splitright = true
 vim.opt.wrap = false -- Disable line wrap
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
+vim.opt.laststatus = 0
+vim.opt.showmode = false
 
 --- Mouse behavior
 vim.opt.mouse = "a"

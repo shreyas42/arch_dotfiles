@@ -3,3 +3,7 @@ modmap:
     remap:
       CapsLock: Esc
       Esc: CapsLock
+  - name: Remap windows/alt keys for mac like behavior
+    remap:
+      Alt_L: Super_L
+      Super_L: Alt_L
