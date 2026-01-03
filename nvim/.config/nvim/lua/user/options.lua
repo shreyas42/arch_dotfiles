@@ -52,5 +52,13 @@ vim.opt.autoread = true
 --- Colors behavior
 vim.opt.termguicolors = true
 
+--- Diagnostics behavior
+vim.o.updatetime = 250
+
+vim.api.nvim_create_autocmd("CursorHold", {
+  callback = function()
+    vim.diagnostic.open_float(nil, { focus = false })
+  end,
+})
 --- END OPTIONS   ---
 

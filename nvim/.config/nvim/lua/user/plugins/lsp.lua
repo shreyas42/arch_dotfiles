@@ -25,6 +25,7 @@ return {
                 map("n", "<leader>ca", vim.lsp.buf.code_action)
             end
 
+            -- Python setup
             lspconfig.pyright.setup({
                 on_attach = on_attach,
                 capabilities = capabilities,
@@ -33,6 +34,19 @@ return {
                         pythonPath = vim.fn.exepath("python")
                     }
                 }
+            })
+
+            -- cpp setup
+            lspconfig.clangd.setup({
+                on_attach = on_attach,
+                capabilities = capabilities,
+                cmd = {
+                    "clangd",
+                    "--background-index",
+                    "--clang-tidy",
+                    "--completion-style=detailed",
+                    "--header-insertion=iwyu",
+                },
             })
         end,
     },

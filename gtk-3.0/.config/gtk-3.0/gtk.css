@@ -1,0 +1,14 @@
+/* Waybar tray menus & popovers */
+menu,
+.menu,
+context-menu,
+popover {
+  background-color: #282828;
+  color: #ebdbb2;
+  border: 1px solid #3c3836;
+}
+
+menu menuitem:hover {
+  background-color: #3c3836;
+  color: #fabd2f;
+}
