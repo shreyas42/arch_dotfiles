@@ -28,15 +28,15 @@
     "on-click": "activate",
 
     "window-rewrite": {
-      "class<firefox>": "",
-      "class<kitty>": "",
-      "code": "󰨞",
-      "Code": "󰨞",
-      "class<org.kde.dolphin>": "",
-      "class<mpv>": "",
-      "class<discord>": "󰙯",
-      "class<steam>": "",
-      ".*": ""
+      "class<firefox>": " ",
+      "class<kitty>": " ",
+      "code": "󰨞 ",
+      "Code": "󰨞 ",
+      "class<org.kde.dolphin>": " ",
+      "class<mpv>": " ",
+      "class<discord>": "󰙯 ",
+      "class<steam>": " ",
+      ".*": " "
     }
   },
 
